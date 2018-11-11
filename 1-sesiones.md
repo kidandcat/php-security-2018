@@ -15,15 +15,34 @@ En la mayoría de las tecnologías de web scripting, las sesiones se implementan
 ## Propiedades de las cookies
  * Nombre
  * Valor
- * Dominio
- * Path
- * Expiración
- * Tamaño
- * HTTP
- * Secure
- * SameSite
+ * Dominio*
+ * Path*
+ * Expiración*
+ * Tamaño*
+ * HTTP*
+ * Secure*
+ * SameSite*
 
-## Baneando países
+
+# Tareas
+
+### Propiedades de las cookies:
+
+Investigar sobre una de las propiedades de las cookies con * qué tipo de ataques pueden prevenir si se usan correctamente.
+
+### Frameworks PHP:
+
+Investigar sobre uno de los frameworks qué tipo de cookies usa para mantener las sesiones (¿usan su propio mecanismo?, ¿usan la sesion de php sin modificaciones?)
+
+- Laravel
+- Symfony
+- Zend
+- Codeigniter
+- Phalcon
+- Yii
+- CakePHP
+- FuelPHP
+- PHPixie
 
 
 http://es.php.net/manual/es/intro.session.php
