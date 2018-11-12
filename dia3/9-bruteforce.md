@@ -1,0 +1,1 @@
+# Autenticación en PHP y cómo evitar ataques de fuerza bruta
