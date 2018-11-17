@@ -2,3 +2,6 @@
 
 
 SVG
+
+
+![alt text](../firefox.svg)
