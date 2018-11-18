@@ -1,4 +1,4 @@
-# Inyección SQL / HTML / PHP
+# Inyección
 
 https://phpsecurity.readthedocs.io/en/latest/Cross-Site-Scripting-(XSS).html
 
