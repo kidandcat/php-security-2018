@@ -5,6 +5,11 @@ Intro del curso
 - Jairo
 - Presentaciones y experiencias
 
+Manual PHP
+http://php.net/manual/es/security.php
+
+
+---
 
 #### PHP y sus configuraciones:
 
