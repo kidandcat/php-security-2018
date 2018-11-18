@@ -3,7 +3,6 @@
 Intro del curso
 
 - Jairo
-- No PHP
 - Presentaciones y experiencias
 
 
