@@ -1,4 +1,7 @@
 <?php
+# http://localhost:5000/1-sesiones.php?name=Jairo
+
+# C:\Users\jairo\AppData\Local\Temp
 
 session_start();
 

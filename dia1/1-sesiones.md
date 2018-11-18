@@ -6,6 +6,24 @@ Una sesión es un mecanismo que permite conservar información sobre un usuario 
 
 En la mayoría de las tecnologías de web scripting, las sesiones se implementan mediante una cookie que almacena un valor que identifica al usuario en el servidor web cada vez que pasa de una página web a otra. En el servidor web están almacenados todos los datos de la sesión y se accede a ellos cada vez que se pasa de página gracias al identificador almacenado en la cookie.
 
+
+```
++---------------------------------+                       +---------------------------------------------+
+|                                 |                       |                                             |
+|                                 |                       |                                             |
+|             Browser       +---------------------------------------+        Server                     |
+|                           |     |                       |         |                                   |
+|                           |     |                       |         |                                   |
+|                           |     |                       |         |                                   |
+|             Cookies       |     |                       |         |    Cookies Storage                |
+|                           +     |                       |         v                                   |
+|   session_id: 79sdiHS18Djw129   |                       |   79sdiHS18Djw129: {name: Jairo, age: 25}   |
+|                                 |                       |                                             |
+|                                 |                       |                                             |
++---------------------------------+                       +---------------------------------------------+
+
+```
+
 ## Dónde guarda PHP la información
 
 ## Cómo funciona un ataque de suplantación de identidad
@@ -46,3 +64,6 @@ Investigar sobre uno de los frameworks qué tipo de cookies usa para mantener la
 
 
 http://es.php.net/manual/es/intro.session.php
+http://es.php.net/manual/es/session.security.php
+
+- SessionHandler http://es.php.net/manual/es/class.sessionhandlerinterface.php
