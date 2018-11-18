@@ -1,6 +1,7 @@
 # Ataques CSRF / XSS
 
+![csrf](../csrf.png)
 
-# Tareas
+## SVG
 
-Peticiones http falsificadas
+[firefox SVG](../firefox.svg)
