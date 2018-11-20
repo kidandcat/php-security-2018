@@ -1,24 +1,15 @@
 <?php
-session_start();
 
-if($_SESSION["logged"] != true){
-    echo "No tienes permiso!";
+
+header("Access-Control-Allow-Origin: http://localhost:5000");
+
+if($_SERVER['REQUEST_METHOD'] === "OPTIONS"){
     return;
 }
 
-if(isset($_POST["name"]) && $_SESSION["csrf_token"] !== $_POST["csrf_token"]){
-    echo "Ataque CSRF!!!";
-    return;
-}
+echo $_SERVER['REQUEST_METHOD'];
 
-
-$rand = "IHASD123123";
-$_SESSION["csrf_token"] = $rand;
-
-if(isset($_POST["name"])){
-    $_SESSION["name"] = $_POST["name"];
-    echo "I have saved your name!";
-}else{
-    echo isset($_SESSION["name"]) ? "Hello ".$_SESSION["name"]."!" : "I don't know your name yet";
-}
+#if($_SERVER['REQUEST_METHOD'] === "POST"){
+    echo "cambio en la BD!!";
+#}
 
