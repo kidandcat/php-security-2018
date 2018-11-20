@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 http://php.net/manual/es/security.general.php
 
     Un sistema completamente seguro es prácticamente imposible, de modo que el enfoque usado con mayor frecuencia en la profesión de seguridad es uno que busque el balance adecuado entre riesgo y funcionalidad.
