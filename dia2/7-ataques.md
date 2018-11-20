@@ -22,3 +22,6 @@ http://php.net/manual/es/security.filesystem.nullbytes.php
 # Ataques
 
 https://www.owasp.org/index.php/Category:Attack
+
+
+USB abandonado

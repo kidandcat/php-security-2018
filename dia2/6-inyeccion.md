@@ -37,9 +37,19 @@ En PHP, tienes dos alternativas principales: PDO y MySQLi. Hay varias diferencia
 
 https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
 
+http://sqlmap.org/
+
+http://www.golismero.com/
+
         golismero.bat scan https://mediavida.com -o report.html
-        python .\sqlmap-dev\sqlmap.py -u https://www.codespaceacademy.com/clickheat/index.php?language=1
+        python .\sqlmap-dev\sqlmap.py -u 
 
 ### SVG
 
 [firefox SVG](../firefox.svg)
+
+### PDF infectado
+
+### USB abandonado
+
+### USB driver
