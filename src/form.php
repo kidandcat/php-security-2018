@@ -13,11 +13,5 @@
         <input type="hidden" name="csrf_token" value="<?php echo $_SESSION["csrf_token"] ?>">
         <input type="submit" value="submit">
     </form>
-    <script>
-        function ajax(){
-            var result = fetch("/post.php");
-        }
-
-    </script>
 </body>
 </html>

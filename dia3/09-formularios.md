@@ -1,5 +1,11 @@
-# Register Globals
+# CSRF Token
 
-http://php.net/manual/es/language.variables.external.php
+Nuevo token generado en cada llamada. Asi evitamos multiples envíos del mismo formulario.
 
-http://php.net/manual/es/security.globals.php
+```php
+<form action="/post.php" method="POST">
+    <input type="text" name="name" id="name">
+    <input type="hidden" name="csrf_token" value="<?php echo $_SESSION["csrf_token"] ?>">
+    <input type="submit" value="submit">
+</form>
+```
