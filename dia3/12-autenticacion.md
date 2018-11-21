@@ -23,6 +23,8 @@ Probando usuarios y contraseñas en un login, podemos saber si hemos encontrado 
 
 https://cwe.mitre.org/data/definitions/385.html
 
+https://codeseekah.com/2012/04/29/timing-attacks-in-web-applications/
+
 
 # Login errors
 

@@ -9,3 +9,8 @@ Nuevo token generado en cada llamada. Asi evitamos multiples envíos del mismo f
     <input type="submit" value="submit">
 </form>
 ```
+
+
+# Idempotencia
+
+https://stackoverflow.com/a/45019073/4158710

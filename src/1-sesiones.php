@@ -5,9 +5,10 @@
 
 session_start();
 
+$name = filter_input(INPUT_GET, 'name', FILTER_SANITIZE_SPECIAL_CHARS);
 
-if(isset($_GET["name"])){
-    $_SESSION["name"] = $_GET["name"];
+if(isset($name)){
+    $_SESSION["name"] = $name;
     echo "I have saved your name!";
 }else{
     echo isset($_SESSION["name"]) ? "Hello ".$_SESSION["name"]."!" : "I don't know your name yet";
